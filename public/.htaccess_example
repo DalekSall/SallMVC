@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule (.*) bootstrap.php
+
+#DB Envs can be set here:
+#SetEnv db local

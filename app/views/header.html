@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Title</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<link rel="stylesheet" href="<?=URL?>/css/layout.css" />
+		<?php if(isset($css)):?>
+			<?php foreach($css as $fileName):?>
+				<link rel="stylesheet" href="<?=URL?><?=$fileName?>" />
+			<?php endforeach;?>
+		<?php endif;?>
+	</head>
+	<body>

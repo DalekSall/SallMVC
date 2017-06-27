@@ -1,0 +1,11 @@
+*.sql
+*.swp
+*.pdf
+*.zip
+*.gz
+*.rar
+*.tar
+*.sql
+/logs/*
+/public/.htaccess
+htpasswd
